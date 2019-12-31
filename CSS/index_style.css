@@ -1,0 +1,48 @@
+body
+{
+    font-family: "segoe ui light";
+}
+.item
+{
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.txt
+{
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 5px;
+}
+.boxx
+{
+    background-color: rgba(0 , 0 , 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.zomimg
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/asset\ 10.jpeg);
+    background-size: 100% 100%;
+    position: relative;
+}
+.zomimg i
+{
+    font-size: 20px;
+    cursor: pointer;
+}
+#close
+{
+    position: absolute;
+    top: 15;
+    right: 15;
+}
